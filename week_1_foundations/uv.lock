@@ -669,17 +669,6 @@ wheels = [
 ]
 
 [[package]]
-name = "ml-and-deep-learning-challenges"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "notebook" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "notebook", specifier = ">=7.4.3" }]
-
-[[package]]
 name = "nbclient"
 version = "0.10.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1256,3 +1245,14 @@ sdist = { url = "https://files.pythonhosted.org/packages/e6/30/fba0d96b4b5fbf594
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5a/84/44687a29792a70e111c5c477230a72c4b957d88d16141199bf9acb7537a3/websocket_client-1.8.0-py3-none-any.whl", hash = "sha256:17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526", size = 58826 },
 ]
+
+[[package]]
+name = "week-1-foundations"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "notebook" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "notebook", specifier = ">=7.4.3" }]
